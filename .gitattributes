@@ -1,2 +1,4 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+project_ikigai.mp4 filter=lfs diff=lfs merge=lfs -text
+covid_19_analysis.mp4 filter=lfs diff=lfs merge=lfs -text

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nikita Portfolio Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html"><img src="img/logo.png" alt=""></a>
+        </div>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="index.html#services" class="nav__link">Education</a></li>
+                <li class="nav__item"><a href="index.html#about" class="nav__link">About me</a></li>
+                <li class="nav__item"><a href="index.html#work" class="nav__link">My Work</a></li>
+                <li class="nav__item"><a href="index.html#skills" class="nav__link">Skills</a></li>
+                <li class="nav__item"><a href="index.html#training" class="nav__link">Training</a></li>
+                <li class="nav__item"><a href="index.html#achievement" class="nav__link">Achievements</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+
+
+    <section class="intro">
+        <h1 class="section__title section__title--intro">
+            #02<strong>Analysis of Covid-19</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">Along with prediction of herd immunity</p>
+        <img src="img/project_2.png" alt="" class="intro__img">
+    </section>
+    
+    <div class="portfolio-item-individual">
+        <p>I along with my three batch-mates <B>Shivam Kapur, Amisha and Kshitiz Garg</b> came up with this project, we did the analysis on Juypter Notebook in September, 2021 and according to our analysis we came with these conclusions:<br>
+            <li>According to our analysis, 13.55 % of our country's population has been fully vaccinated and around 2.41 % of our population has already been affected by Covid-19. Hence, we can say that around 16% of our country's population is already immune to the deadly coronavirus. </li>
+            <li>Now, to be fully immunized against COVID-19, India has to achieve Herd Immunity as soon as
+            possible. Herd Immunity can be achieved once we are able to safeguard around 60 % of our country's population.</li>
+            <li>According to our predictive analysis which we have done in this project, we shall be able to achieve that 60 % mark by Mid-January 2022.</li>
+            <li>There has been a lot of buzz going around to re-open schools and colleges, but we believe that this decision should not be rushed and should be thought properly.</li>
+        <p>Here is a demo video of the website that we made.</P><br>
+            <video class="portfolio-item-individual " controls>
+                <source src="video/covid_19_analysis.mp4" type="video/mp4">
+              </video>
+        <p><a href="https://github.com/NikitaTewary/Analysis-of-Covid-19-Cases-and-Prediction-of-Herd-Immunity" class="btn">Click Here</a>  to view the full source code of this project</p>
+    </div>
+
+
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    <!-- Footer -->
+    <footer class="footer">
+        <!-- replace with your own email address -->
+        <a href="mailto:tewarynikita2001@gmail.com" class="footer__link">tewarynikita2001@gmail.com</a>
+        <ul class="social-list">
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://www.linkedin.com/in/nikita-tewary/">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://www.instagram.com/nikitatewary26/">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://github.com/NikitaTewary">
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
+        </ul>
+    </footer>
+
+    <script src="js/index.js"></script>
+</body>
+</html>
